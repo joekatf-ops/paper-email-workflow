@@ -1,0 +1,45 @@
+{
+  "_about": "Example plan for a fictional brand, Oakline Home. Welcome email 1. Swap in your own positions, links and words. Keys starting with _ are notes and are ignored.",
+  "name": "oakline-welcome-1",
+  "designWidth": 600,
+  "background": "#F7F3EE",
+  "format": "auto",
+  "jpgQuality": 82,
+  "platform": "omnisend",
+  "preheader": "Your 10% welcome code is inside. Linen that gets softer every wash.",
+  "rows": [
+    { "name": "logo", "to": 110, "link": "https://www.oaklinehome.example/", "alt": "Oakline Home" },
+    { "name": "hero", "to": 900, "link": "https://www.oaklinehome.example/collections/linen-bedding", "alt": "Welcome to Oakline Home. Linen bedding that gets softer with every wash. Shop bedding." },
+    { "name": "offer", "to": 1240, "link": "https://www.oaklinehome.example/discount/HELLO10", "alt": "10% off your first order. Use code HELLO10 at checkout. Claim my 10% off." },
+    { "live": "text", "text": "Code HELLO10 works once, on anything in store, for the next 7 days.", "align": "center", "textColour": "#3B3A36" },
+    { "name": "bestsellers", "to": 2120, "link": "https://www.oaklinehome.example/collections/best-sellers", "alt": "Our best sellers. Stonewashed linen sheet set, linen quilt cover, waffle bath towels. Shop best sellers." },
+    { "name": "story", "to": 2820, "link": "https://www.oaklinehome.example/pages/our-story", "alt": "Made slowly, in small batches. Read our story." },
+    { "name": "reviews", "to": 3260, "link": "https://www.oaklinehome.example/pages/reviews", "alt": "Rated 4.8 out of 5 by 2,000 customers. Read the reviews." },
+    {
+      "name": "footer-nav",
+      "to": 3340,
+      "columns": [
+        { "width": 300, "link": "https://www.oaklinehome.example/collections/all", "alt": "Shop all" },
+        { "width": 300, "link": "https://www.oaklinehome.example/pages/contact", "alt": "Contact us" }
+      ]
+    },
+    {
+      "name": "social",
+      "to": 3410,
+      "columns": [
+        { "width": 250, "decorative": true },
+        { "width": 50, "link": "https://www.instagram.com/", "alt": "Oakline Home on Instagram" },
+        { "width": 50, "link": "https://www.pinterest.com/", "alt": "Oakline Home on Pinterest" },
+        { "width": 250, "decorative": true }
+      ]
+    },
+    { "name": "bottom-spacer", "to": "end", "decorative": true },
+    {
+      "live": "footer",
+      "note": "You're getting this because you joined the Oakline Home list.",
+      "address": "Oakline Home Pty Ltd, 1 Example Street, Surry Hills NSW 2010",
+      "background": "#EFE8DF",
+      "textColour": "#3B3A36"
+    }
+  ]
+}

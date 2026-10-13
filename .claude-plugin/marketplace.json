@@ -1,0 +1,20 @@
+{
+  "name": "paper-email-workflow",
+  "owner": {
+    "name": "Joe Katf"
+  },
+  "metadata": {
+    "description": "Premium image-led ecommerce emails designed in Paper with Claude, cut into linked strips and built in Klaviyo or Omnisend."
+  },
+  "plugins": [
+    {
+      "name": "premium-email-workflow",
+      "source": "./plugins/premium-email-workflow",
+      "description": "The Paper email workflow as a Claude skill: brand setup, design checkpoints in Paper, the cut-email tool, platform build and QA for Klaviyo or Omnisend.",
+      "author": {
+        "name": "Joe Katf"
+      },
+      "homepage": "https://github.com/joekatf-ops/paper-email-workflow"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "cut-email",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cuts a tall Paper email export into linked image strips and builds paste-ready email HTML.",
+  "type": "module",
+  "bin": {
+    "cut-email": "./cut-email.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "sharp": "0.35.5"
+  }
+}

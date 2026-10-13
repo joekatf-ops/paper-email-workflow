@@ -1,0 +1,22 @@
+<!-- Optional Klaviyo product loop for a Started Checkout flow. Use it with: { "live": "cart", "file": "klaviyo-started-checkout-loop.html" } -->
+<!-- Check in Klaviyo preview with a real event before sending. verify against current platform docs -->
+<!-- Fields used: event.extra.line_items (each one called item), item.title, item.product.images.0.src, item.price, event.extra.checkout_url. -->
+<!-- If checkout_url is empty in preview, try event.extra.responsive_checkout_url instead. Added to Cart events hold one product; their link is event.URL. -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;border-collapse:collapse;">
+{% for item in event.extra.line_items %}
+<tr>
+<td width="148" valign="top" style="padding:16px 16px 16px 44px;">
+<img src="{{ item.product.images.0.src }}" width="104" alt="{{ item.title }}" style="display:block;width:104px;max-width:100%;height:auto;border:0;">
+</td>
+<td valign="top" style="padding:16px 44px 16px 0;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#222222;">
+<strong>{{ item.title }}</strong><br>
+{% currency_format item.price %}
+</td>
+</tr>
+{% endfor %}
+<tr>
+<td colspan="2" align="center" style="padding:8px 44px 28px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;">
+<a href="{{ event.extra.checkout_url }}" target="_blank" style="color:#222222;text-decoration:underline;">Return to your cart</a>
+</td>
+</tr>
+</table>

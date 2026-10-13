@@ -1,0 +1,11 @@
+{
+  "name": "premium-email-workflow",
+  "version": "1.0.0",
+  "description": "Design premium image-led ecommerce emails in Paper with Claude, cut them into linked strips with live cart and legal blocks, and build them in Klaviyo or Omnisend.",
+  "author": {
+    "name": "Joe Katf"
+  },
+  "homepage": "https://github.com/joekatf-ops/paper-email-workflow",
+  "repository": "https://github.com/joekatf-ops/paper-email-workflow",
+  "keywords": ["email", "paper", "klaviyo", "omnisend", "ecommerce", "design"]
+}
